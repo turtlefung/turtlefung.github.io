@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<link rel="stylesheet" type="text/css" href="resume_css.css">
+<script src="resume_js.js"></script>
+<title>Victor Fung</title>
+
+<script>
+	new Splide( '.splide' ).mount();
+</script>
+
+<script>
+	document.addEventListener( 'DOMContentLoaded', function () {
+		new Splide( '.splide' ).mount();
+	} );
+</script>
+
+</head>
+<body>
+
+<div id="navbardiv">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Victor Fung</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#introductiondiv">Who am I?</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#education">Eduaction</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#workexp">Work Experience</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#techskill">Technical (IT) Skills</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#eca">Extra-Curricular Activities</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="splide">
+	<div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/1200/600" /></li>
+			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/2400/1200" /></li>
+			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/600/300" /></li>
+		</ul>
+	</div>
+</div>
+
+<div class="intro" id="introductiondiv">
+  <strong><span class="introtitle">Who am I?</span></strong>
+  <br>
+  <div class="introdivone">
+  <span class="introtext">Seeking a position where I can gain hands-on experience in IT development projects</span>
+  <hr>
+  </div>
+  <div class="introdivtwo">
+  <span class="introtext">Interested in computer programming and web development</span>
+  <hr>
+  </div>
+  <div class="introdivthree">
+  <span class="introtext">Quick learner</span>
+  <hr>
+  </div>
+</div>
+
+<div class="intro bg-primary text-light" id="education">
+  <strong><span class="introtitle">Education</span></strong>
+  <br>
+  <div class="introdivone">
+  <span class="introtext">The University of Hong Kong</span>
+  <hr>
+  </div>
+  <div class="introdivtwo">
+  <span class="introtext">Bachelor of Science in Surveying</span>
+  <hr>
+  </div>
+  <div class="introdivthree">
+  <span class="introtext">Expected Graduation Year: 2022</span>
+  <hr>
+  </div>
+</div>
+
+<div class="intro bg-secondary text-light" id="workexp">
+  <strong><span class="introtitle">Work Experience</span></strong>
+  <br>
+  <div class="workdivone">
+  <span class="introtext">Hong Kong Housing Society</span>
+  <br>
+  <span class="worktext">Summer Intern (Projects)</span>
+  <br>
+  <span class="worktexts">06/2021 - 08/2021</span>
+  <br>
+  <li class="worktextss">Tracking the progress of development projects</li>
+  <hr>
+  </div>
+  <div class="workdivone">
+  <span class="introtext">Rating and Valuation Department, HKSAR</span>
+  <br>
+  <span class="worktext">Summer Intern (Surveying)</span>
+  <br>
+  <span class="worktexts">06/2020 – 08/2020</span>
+  <br>
+  <li class="worktextss">Preparing for stamp duty valuation and processing rateable value proposals</li>
+  <hr>
+  </div>
+  <div class="workdivone">
+  <span class="introtext">Colliers International</span>
+  <br>
+  <span class="worktext">Intern – Leasing Services</span>
+  <br>
+  <span class="worktexts">03/2019 – 07/2019</span>
+  <br>
+  <li class="worktextss">Collecting and handling leasing data, producing leasing reports and PowerPoints</li>
+  <hr>
+  </div>
+</div>
+
+
+
+<div class="intro bg-warning text-dark" id="skills">
+  <strong><span class="introtitle">Skills</span></strong>
+  <br>
+  <div class="introdivone">
+  <span class="introtext">Computer</span>
+  <br>
+  <span class="worktexts">Word, Excel, PowerPoint</span>
+  <hr>
+  </div>
+  <div class="introdivone">
+  <span class="introtext">Language</span>
+  <br>
+  <span class="worktexts">Cantonese (native), English (fluent), Mandarin (fluent)</span>
+  <hr>
+  </div>
+</div>
+
+<div class="intro bg-info text-dark" id="techskill">
+  <strong><span class="introtitle">Technical (IT) Skills</span></strong>
+  <br>
+  <img class="slideimg" src="python.png" />
+  <img class="slideimg" src="javascript.png" />
+  <img class="slideimg" src="html.png" />
+  <img class="slideimg" src="css.png" />
+</div>
+
+<div class="intro bg-dark text-light" id="eca">
+  <strong><span class="introtitle">Extra-Curricular Activities</span></strong>
+  <br>
+  <div class="workdivtwo">
+  <span class="introtext">AREIX Data Intelligence Bootcademy 2nd Cohort</span>
+  <hr>
+  </div>
+  <div class="workdivone">
+  <li class="worktexts">Building a clustering model with Python Module Scikit-learn to match users with various financial products based on their account history</li>
+  <hr>
+  </div>
+  <div class="introdivone">
+  <li class="worktexts">Visualizing and analyzing the data collected with Python Module Pandas</li>
+  <hr>
+  </div>
+</div>
+
+</body>
+
+
+</html>
