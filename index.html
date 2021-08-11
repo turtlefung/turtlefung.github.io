@@ -9,15 +9,13 @@
 <script src="resume_js.js"></script>
 <title>Victor Fung</title>
 
-<script>
-	new Splide( '.splide' ).mount();
-</script>
 
 <script>
 	document.addEventListener( 'DOMContentLoaded', function () {
 		new Splide( '.splide' ).mount();
 	} );
 </script>
+
 
 </head>
 <body>
@@ -55,12 +53,34 @@
 </nav>
 </div>
 
-<div class="splide">
+<div class="splide" data-splide='{"autoplay":"True", "interval":"2000", "rewind":"True"}'>
 	<div class="splide__track">
 		<ul class="splide__list">
-			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/1200/600" /></li>
-			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/2400/1200" /></li>
-			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/600/300" /></li>
+			<li class="splide__slide">
+				<div class="photocontainer">
+					<img class="splideimg" src="sp1.jpg" />
+					<div class="centered">
+						<h1 class="introtitle">Computer Programming</h1>
+					</div>
+				</div>
+			</li>
+			<li class="splide__slide">
+				<div class="photocontainer">
+					<img class="splideimg" src="sp2.jpg" />
+					<div class="centered">
+						<span class="introtitle">Web Application</span>
+					</div>
+				</div>
+			</li>
+			<li class="splide__slide">
+				<div class="photocontainer">
+					<img class="splideimg" src="sp3.jpg" />
+					<div class="centered">
+						<span class="introtitle">Construction & Surveying</span>
+					</div>
+				</div>
+			</li>
+			
 		</ul>
 	</div>
 </div>
@@ -157,7 +177,7 @@
   <strong><span class="introtitle">Technical (IT) Skills</span></strong>
   <br>
   <img class="slideimg" src="python.png" />
-  <img class="slideimg" src="javascript.png" />
+  <img class="slideimg" src="Javascript.png" />
   <img class="slideimg" src="html.png" />
   <img class="slideimg" src="css.png" />
 </div>
