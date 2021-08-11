@@ -23,6 +23,12 @@
   font-size: 30px;
 }
 
+.introtextforportfolio {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
 .worktext {
   font-size: 25px;
 }
@@ -72,4 +78,8 @@
   color: white;
   background-color: black;
   padding: 2vw;
+}
+
+.customcolorone {
+  background-color: black;
 }
