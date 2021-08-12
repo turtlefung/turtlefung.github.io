@@ -10,7 +10,6 @@
 
 .intro {
   padding: 2vw;
-  width: 100vw;
   text-align: center;
   align-items: center;
 }
@@ -71,9 +70,9 @@
   text-align: center;
 }
 
-.centered {
+.splidebottomright {
   position: absolute;
-  bottom: 5vh;
+  bottom: 6vh;
   right: 0px;
   color: white;
   background-color: black;
@@ -82,4 +81,16 @@
 
 .customcolorone {
   background-color: black;
+}
+
+.navbar-brand {
+  font-size: 5vw
+}
+
+.nav-link {
+  font-size: 1.4vw
+}
+
+.splideimagetext {
+  font-size: 7vw
 }
