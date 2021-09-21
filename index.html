@@ -9,14 +9,15 @@
 <script src="resume_js.js"></script>
 <title>Victor Fung</title>
 
+<script>
+	new Splide( '.splide' ).mount();
+</script>
 
 <script>
 	document.addEventListener( 'DOMContentLoaded', function () {
 		new Splide( '.splide' ).mount();
 	} );
 </script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
@@ -31,25 +32,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#introductiondiv">Who am I?</a>
+          <a class="nav-link active text-center" aria-current="page" href="#introductiondiv">Who am I?</a>
         </li>
-	<li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#education">Eduaction</a>
         </li>
-	<li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#workexp">Work Experience</a>
         </li>
-	<li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
         </li>
-	<li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#techskill">Technical (IT) Skills</a>
         </li>
-	<li class="nav-item">
+		<li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#eca">Extra-Curricular Activities</a>
-        </li>
-	<li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#portfo">Portfolio</a>
         </li>
       </ul>
     </div>
@@ -57,39 +55,17 @@
 </nav>
 </div>
 
-<div class="splide" data-splide='{"autoplay":"True", "interval":"2000", "rewind":"True"}'>
+<div class="splide">
 	<div class="splide__track">
 		<ul class="splide__list">
-			<li class="splide__slide">
-				<div class="photocontainer">
-					<img class="splideimg" src="sp1.jpg" />
-					<div class="splidebottomright">
-						<span class="splideimagetext">Computer Programming</h1>
-					</div>
-				</div>
-			</li>
-			<li class="splide__slide">
-				<div class="photocontainer">
-					<img class="splideimg" src="sp2.jpg" />
-					<div class="splidebottomright">
-						<span class="splideimagetext">Web Application</span>
-					</div>
-				</div>
-			</li>
-			<li class="splide__slide">
-				<div class="photocontainer">
-					<img class="splideimg" src="sp3.jpg" />
-					<div class="splidebottomright">
-						<span class="splideimagetext">Construction & Surveying</span>
-					</div>
-				</div>
-			</li>
-			
+			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/1200/600" /></li>
+			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/2400/1200" /></li>
+			<li class="splide__slide"><img class="splideimg" src="https://picsum.photos/600/300" /></li>
 		</ul>
 	</div>
 </div>
 
-<div class="container-fiuld intro" id="introductiondiv">
+<div class="intro" id="introductiondiv">
   <strong><span class="introtitle">Who am I?</span></strong>
   <br>
   <div class="introdivone">
@@ -106,7 +82,7 @@
   </div>
 </div>
 
-<div class="container-fiuld intro bg-primary text-light" id="education">
+<div class="intro bg-primary text-light" id="education">
   <strong><span class="introtitle">Education</span></strong>
   <br>
   <div class="introdivone">
@@ -123,7 +99,7 @@
   </div>
 </div>
 
-<div class="container-fiuld intro bg-secondary text-light" id="workexp">
+<div class="intro bg-secondary text-light" id="workexp">
   <strong><span class="introtitle">Work Experience</span></strong>
   <br>
   <div class="workdivone">
@@ -160,7 +136,7 @@
 
 
 
-<div class="container-fiuld intro bg-warning text-dark" id="skills">
+<div class="intro bg-warning text-dark" id="skills">
   <strong><span class="introtitle">Skills</span></strong>
   <br>
   <div class="introdivone">
@@ -177,18 +153,16 @@
   </div>
 </div>
 
-<div class="container-fiuld intro bg-info text-dark" id="techskill">
+<div class="intro bg-info text-dark" id="techskill">
   <strong><span class="introtitle">Technical (IT) Skills</span></strong>
   <br>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4"">
-    <div class="col-sm"><img class="slideimg" src="python.png" /></div>
-    <div class="col-sm"><img class="slideimg" src="Javascript.png" /></div>
-    <div class="col-sm"><img class="slideimg" src="html.png" /></div>
-    <div class="col-sm"><img class="slideimg" src="css.png" /></div>
-  </div>
+  <img class="slideimg" src="python.png" />
+  <img class="slideimg" src="javascript.png" />
+  <img class="slideimg" src="html.png" />
+  <img class="slideimg" src="css.png" />
 </div>
 
-<div class="container-fiuld intro bg-dark text-light" id="eca">
+<div class="intro bg-dark text-light" id="eca">
   <strong><span class="introtitle">Extra-Curricular Activities</span></strong>
   <br>
   <div class="workdivtwo">
@@ -201,23 +175,6 @@
   </div>
   <div class="introdivone">
   <li class="worktexts">Visualizing and analyzing the data collected with Python Module Pandas</li>
-  <hr>
-  </div>
-</div>
-
-<div class="container-fiuld intro customcolorone text-light" id="portfo">
-  <strong><span class="introtitle">Portfolio (WIP)</span></strong>
-  <br>
-  <div class="introdivone">
-  <a class="introtextforportfolio" href="https://snack.expo.dev/@turtlefung/calculator">Calculator (React Native)</a>
-  <hr>
-  </div>
-  <div class="introdivtwo">
-  <a class="introtextforportfolio" href="https://snack.expo.dev/@turtlefung/testing">Testing (React Native)</a>
-  <hr>
-  </div>
-  <div class="introdivthree">
-  <a class="introtextforportfolio" href="#">Dating App (Django)</a>
   <hr>
   </div>
 </div>
